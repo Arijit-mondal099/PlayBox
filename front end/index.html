@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PlayBox: Music for everyone</title>
+    <link rel="shortcut icon" href="../icons/appIcon.png" type="image/x-icon">
+    <link rel="stylesheet" href="utility.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="bg-black">
+
+    <!-- main container  -->
+    <div class="mainContainer flex align-center justify-center gap-1">
+        <!-- left section  -->
+        <div class="leftContainer border-radius flex col gap-1">
+            <!-- first section  -->
+            <div class="sectionOne bg-gray border-radius p flex col gap-2 justify-center">
+                <div class="appNameContainer flex align-center gap">
+                    <div class="app flex align-center gap">
+                        <img src="../icons/appIcon.png" alt="app icon" class="appIcon">
+                        <h1 class="appName text-white text-xl text-w">PlayBox</h1>
+                    </div>
+                    <div class="closeContainer">
+                        <img src="../icons/close.png" alt="close" class="close">
+                    </div>
+                </div>
+                <div class="iconContainers flex align-center gap-2">
+                    <img src="../icons/homepage.png" alt="home icon" class="icons">
+                    <h3 class="text text-white text-l">Home</h3>
+                </div>
+                <div class="iconContainers flex align-center gap-2">
+                    <img src="../icons/search.png" alt="search icon" class="icons">
+                    <h3 class="text text-white text-l">Search</h3>
+                </div>
+            </div>
+            <!-- second section  -->
+            <div class="sectionTwo bg-gray border-radius p flex col gap-2">
+
+                <div class="iconContainers flex align-center text-white gap-2">
+                    <img src="../icons/playlist.png" alt="playlist icon" class="icons">
+                    <h3 class="text text-l">All PlayList Songs</h3>
+                </div>
+
+                <div class="allSongsContainer text-white border-radius flex col gap-2">
+                    <!-- songs will be update here -->
+                </div>
+
+                <div class="leftFooter text-gray flex justify-center f-w gap-1 text-m p-y">
+                    <a href="/" class="text-gray text-w">
+                        <p>Legal</p>
+                    </a>
+                    <a href="/" class="text-gray text-w">
+                        <p>Safty & Privacy Center</p>
+                    </a>
+                    <a href="/" class="text-gray text-w">
+                        <p>Privacy Policy</p>
+                    </a>
+                    <a href="/" class="text-gray text-w">
+                        <p>About Ads</p>
+                    </a>
+                    <a href="/" class="text-gray text-w">
+                        <p>Accessibility</p>
+                    </a>
+                    <p>Copyright © Arijit Mondal. All Rights Reserved.</p>
+                </div>
+
+            </div>
+        </div>
+        <!-- right section  -->
+        <div class="rightContainer text-white bg-gray border-radius p flex col justify-center gap-2">
+            <!-- logo, hambar and login btns  -->
+            <div class="loginButtonsContainer flex gap-1">
+                <div class="appNameContainer flex align-center gap">
+                    <img src="../icons/appIcon.png" alt="app icon" class="appIcon">
+                    <h1 class="appName text-white text-xl text-w">PlayBox</h1>
+                </div>
+
+                <button class="btn">Sing up</button>
+                <button class="btn">Log in</button>
+
+                <button class="hambar">
+                    <img src="../icons/hamburger.png" alt="ham" class="ham">
+                </button>
+            </div>
+            <!-- main content  -->
+            <div class="mainDataContainer flex col align-center gap-2">
+
+                <h1 class="tetxt-xl headingText">Recommended PlayList & Songs</h1>
+
+                <div class="allPlaylistContainer flex f-w">
+
+                    <div class="playlistCard border-radius flex col gap-1 p">
+                        <div class="cardImg">
+                            <img src="../playlist imgs/sad.jpg" alt="">
+                        </div>
+
+                        <div class="playButton flex justify-center align-center">
+                            <button>
+                                <img src="../icons/play-button.png" alt="play-button" class="playBtn" data-folder="sadSongs">
+                            </button>
+                        </div>
+
+                        <div class="cardInfo flex col gap">
+                            <h3 class="text-l text-w">Sad Sungs</h3>
+                            <p class="text-m">Perfect for rainy nights, quiet moments, or when your heart needs to cry a
+                                little.</p>
+                        </div>
+                    </div>
+
+                    <div class="playlistCard border-radius flex col gap-1 p">
+                        <div class="cardImg">
+                            <img src="../playlist imgs/cool.jpg" alt="">
+                        </div>
+
+                        <div class="playButton flex justify-center align-center playButton">
+                            <button>
+                                <img src="../icons/play-button.png" alt="play-button" class="playBtn" data-folder="coolSongs">
+                            </button>
+                        </div>
+
+                        <div class="cardInfo flex col gap">
+                            <h3 class="text-l text-w">Hindi Cool Sungs</h3>
+                            <p class="text-m">Tunes to Make You Groove, Chill, and Feel Alive! 🎧🎸</p>
+                        </div>
+                    </div>
+         
+                </div>
+
+                <div class="line m-y">a</div>
+
+                <div class="rightFooter flex f-w gap-2 justify-center ">
+
+                    <div class="box flex col gap">
+                        <p class="text-white text-w">Company</p>
+                        <a href="">
+                            <p class="text-gray">About</p>
+                        </a>
+                        <a href="">
+                            <p class="text-gray">Jobs</p>
+                        </a>
+                        <a href="">
+                            <p class="text-gray">For the Record</p>
+                        </a>
+                    </div>
+
+                    <div class="box flex col gap">
+                        <p class="text-white text-w">Communities</p>
+                        <a href="">
+                            <p class="text-gray">For Artists</p>
+                        </a>
+                        <a href="">
+                            <p class="text-gray">Developers</p>
+                        </a>
+                        <a href="">
+                            <p class="text-gray">Advertising</p>
+                        </a>
+                        <a href="">
+                            <p class="text-gray">Investors</p>
+                        </a>
+                        <a href="">
+                            <p class="text-gray">Vendors</p>
+                        </a>
+                    </div>
+
+                    <div class="box flex col gap">
+                        <p class="text-white text-w">Useful links</p>
+                        <a href="">
+                            <p class="text-gray">Support</p>
+                        </a>
+                        <a href="">
+                            <p class="text-gray"></p>
+                        </a>
+                        <a href="">
+                            <p class="text-gray">Free Mobile App</p>
+                        </a>
+                    </div>
+
+                    <div class="box flex col gap">
+                        <p class="text-white text-w">PlayBox Plans</p>
+                        <a href="">
+                            <p class="text-gray">Premium Individual</p>
+                        </a>
+                        <a href="">
+                            <p class="text-gray">Premium Duo</p>
+                        </a>
+                        <a href="">
+                            <p class="text-gray">Premium Family</p>
+                        </a>
+                        <a href="">
+                            <p class="text-gray">Premium Student</p>
+                        </a>
+                        <a href="">
+                            <p class="text-gray">PlayBox Free</p>
+                        </a>
+                    </div>
+
+                </div>
+
+                <div class="socialContainer flex align-center justify-center gap-2 p">
+                    <img src="../icons/facebook.png" alt="social img">
+                    <img src="../icons/Instagram.png" alt="social img">
+                    <img src="../icons/twitter.png" alt="social img">
+                </div>
+
+                <div class="me text-gray text-m">
+                    Copyright © Arijit Mondal. All Rights Reserved.
+                </div>
+
+            </div>
+            <!-- play bar -->
+            <div class="playBarContainer border-radius flex align-center col">
+                <div class="allButtons flex align-center">
+
+                    <div class="songInfo text-w barContainer">
+                        Play a song
+                    </div>
+    
+                    <div class="buttonsContainer flex align-center justify-center barContainer">
+                        <img src="../icons/previous.png" alt="img" class="songsBtn previous">
+                        <div class="playPause flex justify-center align-center">
+                            <img src="../icons/play.png" alt="img" class="songsBtn">
+                            <!-- <img src="../icons/pause.png" alt="img" class="songsBtn"> -->
+                        </div>
+                        <img src="../icons/next-button.png" alt="img" class="songsBtn next">
+                    </div>
+                    
+                    <div class="barContainer flex col gap-1">
+                        <div class="songTime text-w">0:00/0:00</div>
+                        <input type="range" value="volume" id="volume"> 
+                    </div>
+
+                </div>
+
+                <div class="seekBar">
+                    <div class="circle">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="../logic/app.js"></script>
+
+</body>
+
+</html>
