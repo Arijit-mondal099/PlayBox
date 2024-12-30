@@ -2,9 +2,6 @@
   {
     "folder": "coolSongs",
     "allSongs": [
-        "/songs/coolSongs/Apa Fer Milaangey - Savi Kahlon.mp3",
-        "/songs/coolSongs/Clash - GOAT.mp3",
-        "/songs/coolSongs/King Shit - Leo.mp3",
         "/songs/coolSongs/Kudiyan Lahore Diyan - Harrdy Sandhu.mp3",
         "/songs/coolSongs/Lemonade - Drive Thru.mp3"
     ]
@@ -12,11 +9,8 @@
   {
     "folder": "sadSongs",
     "allSongs": [
-        "/songs/sadSongs/Beete Lamhein - The Train.mp3",
-        "/songs/sadSongs/Choo Lo - Aalas Ka Pedh.mp3",
         "/songs/sadSongs/Husn - Anuv Jain.mp3",
-        "/songs/sadSongs/Jo Tum Mere Ho - Anuv Jain.mp3",
-        "/songs/sadSongs/Zindagi Ko Hi5 - Arijit Singh.mp3"
+        "/songs/sadSongs/Jo Tum Mere Ho - Anuv Jain.mp3"
     ]
   }
 ]
